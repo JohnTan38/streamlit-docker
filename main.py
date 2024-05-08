@@ -32,3 +32,5 @@ title_main('COSCO MNR Containers Photos Upload 🚛 🚢')
 st.divider()
 if st.button('Success'):
     success_df('Success!')
+if __name__ == '__main__':
+    app.run(debug=True)
